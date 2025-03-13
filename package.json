@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s01u95d",
+  "description": "https://scrimba.com/build-and-deploy-your-portfolio-c012/~0i/s0dl6bsce3/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
