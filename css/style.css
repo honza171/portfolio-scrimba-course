@@ -13,8 +13,8 @@
     --fw-reg: 300;
     --fw-bold: 900;
     
-    --clr-light: #333;
-    --clr-dark: #fff;
+    --clr-dark: #303030;
+    --clr-light: #fff;
     --clr-accent: #DFFF55;
     
     --fs-h1: 3rem;
@@ -44,8 +44,8 @@
 
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--clr-dark);
+    color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -74,7 +74,7 @@ strong { font-weight: var(--fw-bold) }
     display: inline-block;
     padding: .5em 2.5em;
     background: var(--clr-accent);
-    color: var(--clr-light);
+    color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
@@ -125,7 +125,7 @@ h3 { font-size: var(--fs-h3) }
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
-    color: var(--clr-light);
+    color: var(--clr-dark);
 }
 
 .section__subtitle--work {
@@ -148,8 +148,8 @@ header {
 
 .nav {
     position: fixed;
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    background: var(--clr-light);
+    color: var(--clr-dark);
     top: 0;
     bottom: 0;
     left: 0;
@@ -258,7 +258,7 @@ header {
 
 .section__subtitle--intro {
     display: inline-block;
-    color: var(--clr-light);
+    color: var(--clr-dark);
 }
 
 @media (min-width: 600px) {
@@ -296,11 +296,11 @@ header {
 /*  My services section  */
 
 .my-services {
-    background-color: var(--clr-dark);
+    background-color: var(--clr-light);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
     /* background-blend-mode: multiply; */
-    color: var(--clr-dark);
+    color: var(--clr-light);
     text-align: center;
 }
 
@@ -315,7 +315,7 @@ header {
     width: 2em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: var(--clr-light);
+    background: var(--clr-dark);
     opacity: 0.25;
 }
 
@@ -386,8 +386,8 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;    
 }
 
@@ -422,7 +422,7 @@ header {
 /* footer */
 
 .footer {
-    background: #111;
+    background: var(--clr-dark);
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
